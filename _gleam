@@ -114,8 +114,8 @@ function _gleam_deps {
 
 function _gleam_deps_tree {
     _arguments \
-        '(-p --package)'{-p,--package}'[Package to be used as the root of the tree]:package:_list_packages' \
-        '(-i --invert)'{-i,--invert}'[Invert the tree direction and focus on the given package]:invert:_list_packages'
+        '(-p --package -i --invert)'{-p,--package}'[Package to be used as the root of the tree]:package:_list_packages' \
+        '(-p --package -i --invert)'{-i,--invert}'[Invert the tree direction and focus on the given package]:invert:_list_packages'
 }
 
 function _list_packages {
